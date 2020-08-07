@@ -1,12 +1,16 @@
 # rolling-number
 
-## install
+## demo
+
+[demo](https://codesandbox.io/s/nervous-tesla-syl82)
+
+## get started
 
 ```
 yarn install vue-rolling-number
 ```
 
-Or
+or
 
 ```
 npm install vue-rolling-number
@@ -18,6 +22,7 @@ npm install vue-rolling-number
 <template>
   <vue-rolling-number :from="100" :to="999" :speed="50" />
 </template>
+
 <script>
 import VueRollingNumber from 'vue-rolling-number'
 export default {
