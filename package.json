@@ -1,15 +1,25 @@
 {
-  "name": "rolling-number",
+  "name": "vue-rolling-number",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "cboy",
+  "description": "数字上下滚动加减",
+  "main": "lib/vue-rolling-number.umd.min.js",
+  "keywords": [
+    "vue",
+    "rolling-number",
+    "rollingNumber"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-rolling-number --dest lib src/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-rolling-number": "./vue-rolling-number-0.1.0.tgz"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",

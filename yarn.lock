@@ -7937,6 +7937,13 @@ vue-loader@^15.9.2:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-rolling-number@./vue-rolling-number-0.1.0.tgz:
+  version "0.1.0"
+  resolved "./vue-rolling-number-0.1.0.tgz#322977b50ee948cff590252f4dbfe39b718c6d2d"
+  dependencies:
+    core-js "^3.6.5"
+    vue "^2.6.11"
+
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
   resolved "https://registry.npm.taobao.org/vue-style-loader/download/vue-style-loader-4.1.2.tgz#dedf349806f25ceb4e64f3ad7c0a44fba735fcf8"

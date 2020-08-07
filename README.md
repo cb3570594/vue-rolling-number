@@ -1,24 +1,34 @@
 # rolling-number
 
-## Project setup
+## install
+
 ```
-yarn install
+yarn install vue-rolling-number
 ```
 
-### Compiles and hot-reloads for development
+Or
+
 ```
-yarn serve
+npm install vue-rolling-number
 ```
 
-### Compiles and minifies for production
+## usage
+
 ```
-yarn build
+<template>
+  <vue-rolling-number :from="100" :to="999" :speed="50" />
+</template>
+<script>
+import VueRollingNumber from 'vue-rolling-number'
+export default {
+  components: {
+    VueRollingNumber
+  }
+}
+</script>
+
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+## license
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+MIT
