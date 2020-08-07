@@ -7944,6 +7944,15 @@ vue-rolling-number@./vue-rolling-number-0.1.0.tgz:
     core-js "^3.6.5"
     vue "^2.6.11"
 
+vue-rolling-number@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/vue-rolling-number/-/vue-rolling-number-0.1.1.tgz#1f1476f50eae2bcc6edf698f672c9df1064cab97"
+  integrity sha512-FzSntvDYhSjbDw00CxHeKocBF0X/SelVyZpA4QAAtMDp71SW+t1fgJ1jpCjRRAQElP+RGS574B/+Is1+RkZg7g==
+  dependencies:
+    core-js "^3.6.5"
+    vue "^2.6.11"
+    vue-rolling-number "./vue-rolling-number-0.1.0.tgz"
+
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
   resolved "https://registry.npm.taobao.org/vue-style-loader/download/vue-style-loader-4.1.2.tgz#dedf349806f25ceb4e64f3ad7c0a44fba735fcf8"

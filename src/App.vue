@@ -1,20 +1,17 @@
 <template>
   <div id="app">
-    <rolling-number :from="50" :to="to" :speed="0.5" />
-    <button class="shuffle-button" @click="shuffle">shuffle</button>
     <vue-rolling-number :from="50" :to="to" :speed="0.5" />
+    <button class="shuffle-button" @click="shuffle">shuffle</button>
   </div>
 </template>
 
 <script>
 // import Vue from "vue";
-import RollingNumber from "./index.js";
-import VueRollingNumber from "vue-rolling-number";
+import VueRollingNumber from "./index.js";
 // Vue.use(RollingNumber);
 export default {
   name: "App",
   components: {
-    RollingNumber,
     VueRollingNumber
   },
   data() {
