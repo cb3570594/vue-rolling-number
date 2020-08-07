@@ -7,9 +7,13 @@
   "main": "lib/vue-rolling-number.umd.min.js",
   "keywords": [
     "vue",
-    "rolling-number",
-    "rollingNumber"
+    "vue-rolling-number",
+    "rolling-number"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cb3570594/vue-rolling-number"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
