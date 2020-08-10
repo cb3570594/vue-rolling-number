@@ -1,13 +1,13 @@
 # rolling-number
 
-## demo
+## Demo
 
 [demo](https://codesandbox.io/s/nervous-tesla-syl82)
 
-## get started
+## Get Started
 
 ```
-yarn install vue-rolling-number
+yarn add vue-rolling-number
 ```
 
 or
@@ -16,7 +16,7 @@ or
 npm install vue-rolling-number
 ```
 
-## usage
+## Usage
 
 ```
 <template>
@@ -34,6 +34,6 @@ export default {
 
 ```
 
-## license
+## License
 
 MIT
